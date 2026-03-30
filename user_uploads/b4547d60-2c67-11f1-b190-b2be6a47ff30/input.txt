@@ -1,0 +1,9 @@
+file 'Nitro_Wallpaper_02_3840x2400.jpg'
+duration 1
+ file 'Nitro_Wallpaper_03_3840x2400.jpg'
+duration 1
+ file 'image (1).jpg'
+duration 1
+ file 'Correlation matrix.png'
+duration 1
+ 

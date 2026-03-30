@@ -1,5 +1,4 @@
-file 'user_uploads/c8e32e90-2c2b-11f1-9a59-b2be6a47ff30/2025-07-02 (1).png'
-duration 1
- file 'user_uploads/c8e32e90-2c2b-11f1-9a59-b2be6a47ff30/Screenshot (8).png'
-duration 1
- 
+file '2025-07-02_1.png'
+duration 3
+file 'Screenshot_8.png'
+duration 3
