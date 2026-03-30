@@ -1,10 +1,12 @@
 import os
+import subprocess
 
 def text_to_audio(folder):
     print("TTA - ", folder)
 
 def create_reel(folder):
-    print("CR - ", folder)
+    command=""
+    subprocess.run(command, shell=True, check=True)
 
 if __name__ == "__main__":
     with open("done.txt", "r") as f:
