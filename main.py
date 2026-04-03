@@ -34,7 +34,7 @@ def create():
                 filename = filename.replace(" ", "_").replace("(", "").replace(")", "")
                 
                 file.save(os.path.join(folder_path, filename))
-                input_files.append(filename)  # ✅ FIXED
+                input_files.append(filename)  #  FIXED
 
         # Save description (OUTSIDE loop)
         with open(os.path.join(folder_path, "desc.txt"), "w") as f:
@@ -43,8 +43,8 @@ def create():
         # Create input.txt (CLEAN FORMAT)
         with open(os.path.join(folder_path, "input.txt"), "w") as f:
             for fl in input_files:
-                full_path = os.path.join(folder_path, fl).replace("\\", "/")
-                f.write(f"file '{full_path}'\n")
+               # full_path = os.path.join(folder_path, fl).replace("\\", "/")
+                f.write(f"file '{fl}'\n")
                 f.write("duration 1\n")
                 
     return render_template("create.html", myid=myid)
