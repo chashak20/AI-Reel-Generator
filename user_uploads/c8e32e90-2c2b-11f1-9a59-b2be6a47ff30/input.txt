@@ -1,4 +1,0 @@
-file '2025-07-02_1.png'
-duration 3
-file 'Screenshot_8.png'
-duration 3
